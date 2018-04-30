@@ -23,7 +23,7 @@ Cette section va reprendre toutes le étapes du projet
 -   création du readme.md
 -   Initialisation du repo git
 
-```
+```shell
 git init
 
 git add .
@@ -34,14 +34,21 @@ git commit -m "initialisation du projet"
 -   création d'un repository distant sur github.com : <https://github.com/iStuffs/excerpt.git>
 -   ajout du remote
 
-```
+```shell
 git remote add origin https://github.com/iStuffs/excerpt.git
 ```
 
 -   push du projet sur github
 
-```
+```shell
 git push origin master
 ```
 
 -   Ajout du fichier .gitignore : lien utile <https://www.gitignore.io>
+
+-   récupération du projet
+
+```bash
+cd chemin/vers/votre/repertoire
+git clone https://github.com/iStuffs/excerpt.git
+```
