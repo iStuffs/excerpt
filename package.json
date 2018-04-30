@@ -1,0 +1,22 @@
+{
+  "name": "excerpt",
+  "version": "1.0.0",
+  "description": "Projet collaboratif asynchone d'extrait d'article.",
+  "main": "index.html",
+  "scripts": {
+    "start": "light-server -s . -w 'index.html, js/*.js, css/*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iStuffs/excerpt.git"
+  },
+  "author": "iStuffs - Samuel DIDIER-LAURENT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iStuffs/excerpt/issues"
+  },
+  "homepage": "https://github.com/iStuffs/excerpt#readme",
+  "devDependencies": {
+    "light-server": "^2.5.0"
+  }
+}

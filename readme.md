@@ -56,3 +56,25 @@ git clone https://github.com/iStuffs/excerpt.git
 -   création index.html
 -   création css/style.css
 -   création js/script.js
+
+```bash
+npm init
+```
+
+```bash
+npm i -D light-server
+```
+
+-   ajout dans package.json script start
+
+```json
+"scripts": {
+  "start": "light-server -s . -w 'index.html, js/*.js, css/*.css'"
+},
+```
+
+-   lancement du serveur
+
+```
+npm start
+```
