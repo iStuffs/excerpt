@@ -1,1 +1,37 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e1e1e1;
+  color: #333;
+}
+.main-title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2rem 0;
+}
+.articles {
+  background-color: #fff;
+  padding: 1rem 2rem 2rem;
+}
+.article {
+  padding-bottom: 2rem;
+}
+.wrapper {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.button {
+  height: 3rem;
+  padding: 0 3rem;
+  background: none;
+  border-radius: 3rem;
+  color: #42b983;
+  border: 2px solid currentcolor;
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+.button:hover {
+  opacity: .7;
+}
