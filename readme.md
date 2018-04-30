@@ -52,3 +52,7 @@ git push origin master
 cd chemin/vers/votre/repertoire
 git clone https://github.com/iStuffs/excerpt.git
 ```
+
+-   création index.html
+-   création css/style.css
+-   création js/script.js
